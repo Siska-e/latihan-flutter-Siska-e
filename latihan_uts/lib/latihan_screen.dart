@@ -15,12 +15,12 @@ class LatihanScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Center(
+              const Center(
                   child: Text(
                 "INFORMATIKA",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 21),
               )),
-              SizedBox(
+              const SizedBox(
                 height: 8,
               ),
               Image.asset('images/latihan.jpg',height: 250, width: double.infinity, fit: BoxFit.cover),
@@ -117,8 +117,8 @@ class LatihanScreen extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("Alamat"),
-                      Text("Jl. Rajawali no. 14",
+                      const Text("Alamat"),
+                      const Text("Jl. Rajawali no. 14",
                       style: TextStyle(
                         color: Colors.black, fontWeight: FontWeight.bold
                       ),),
