@@ -144,52 +144,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ],
           ),
         ),
-
-        //footer keren
-        Align(
-          alignment: Alignment.bottomCenter,
-          child: Container(
-            color: Colors.deepPurple[50],
-            width: double.infinity,
-            padding: const EdgeInsets.symmetric(
-              vertical: 8,
-              horizontal: 16,
-            ),
-            child: const Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Icon(
-                  Icons.home,
-                  color: Colors.deepPurple,
-                ),
-                Icon(
-                  Icons.search,
-                  color: Colors.deepPurple,
-                ),
-                Icon(
-                  Icons.favorite,
-                  color: Colors.deepPurple,
-                ),
-                Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Icon(
-                      Icons.person,
-                      color: Colors.deepPurple,
-                    ),
-                    Text(
-                      'Profile',
-                      style: TextStyle(
-                        color: Colors.deepPurple,
-                        fontSize: 12,
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          ),
-        ),
       ],
     ));
   }
