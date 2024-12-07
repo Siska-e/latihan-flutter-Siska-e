@@ -4,6 +4,7 @@ import 'package:wisata_candi/detail_screen.dart';
 import 'package:wisata_candi/favorite_screen.dart';
 import 'package:wisata_candi/home_screen.dart';
 import 'package:wisata_candi/models/profile_screen.dart';
+import 'package:wisata_candi/signup_screen.dart';
 import 'package:wisata_candi/widgets/search_screen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MainScreen(),
+      home: SignUpScreen(),
       // home: SearchScreen(),
       // home: ProfileScreen(),
       // home: DetailScreen(candi: candiList[0]),
